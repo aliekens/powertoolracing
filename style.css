@@ -1,9 +1,44 @@
 body {
     font-family: 'Open Sans';
     color: #111;
-    padding: 0px 10px 10px 10px;
+    padding: 0px 0px 0px 0px;
     font-size: 16px;
 }
+/* The navigation bar */
+.navbar {
+    overflow: hidden;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    background-color: #fff;
+    padding:20;
+    margin:0;
+    align:center;
+}
+
+/* Links inside the navbar */
+.navbar a {
+    padding: 8px;
+    text-decoration: none;
+}
+
+.red {
+    color: #CB4335;
+}
+
+/* Main content */
+.below_navbar {
+    margin-top: 70px; /* Add a top margin to avoid content overlay */
+}
+
+#warning {
+  text-align: center;
+  color: #CB4335;
+  background-color: #FDEDEC;
+  padding: 20px;
+  margin: 10px;
+}
+
 #main {
     max-width: 800px;
     margin:auto;
@@ -11,9 +46,14 @@ body {
     padding-bottom: 40px;
 }
 h1 {
-    margin-left: 40px;
-    margin: 0;
+  margin-left: 40px;
+  margin: 0;
 }
+
+.tagged {
+  padding-top: 80px;
+}
+
 h2 {
     margin-left: 40px;
     margin: 0;
@@ -25,14 +65,6 @@ a:link    { color:#000; }
 a:visited { color:#000; }
 a:hover   { color:#000; }
 a:active  { color:#000; }
-
-#navbar {
-  text-align: center;
-  color: #CB4335;
-  background-color: #FDEDEC;
-  padding: 20px;
-  margin: 0px;
-}
 
 .intro {
     margin-top: 40px;
